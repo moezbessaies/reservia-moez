@@ -1,0 +1,226 @@
+/* ligne 47 html */
+.filter{
+display: flex;
+flex-wrap: wrap;
+}
+.navbar{
+    flex-wrap: wrap;
+}
+#search-bar{
+    display: flex;
+    width: 40%;
+}
+
+.search-bar{
+    width: 20%;
+}
+
+.marseille{
+    width: 80%;
+}
+#hosting-wrapper{
+    flex-wrap: wrap-reverse;
+}
+#bloc-tri{
+ display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+.signin{
+    position: initial;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between
+    /* flex-wrap: wrap; */
+}
+@media ( max-width:1023px){
+
+    .elements3{
+    
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .popular{
+        /*border: solid purple 2px;*/
+     
+        max-width: 100%;
+        width: 95%;
+        padding: 15px ;
+        
+    }
+    #hosting-wrapper{
+
+        /*border: solid 2px pink;*/
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        
+    }
+    .wrapper2{
+        width: 95%;
+        margin-top: 3rem;
+        background-color: #fff;
+    }
+}
+.footer{
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
+
+@media (max-width:786px){
+
+    #search-bar{
+        display: flex;
+        width: 95%;
+    }
+
+    .img-card{
+        width: 95%;
+        box-shadow: 1px 15px 20px 15px #00000042;
+    }
+    .img-card img{
+        width:100%;
+
+
+    }
+    .colonne,.colonne2{
+        width: 95%;
+        margin-top:1rem
+    }
+    .popular{
+        width: 95%;
+        padding: 15px ;
+        
+    }
+    
+   
+
+    /* Todo mettre en harmonie les heigths des cards activites comme sur les cards d'hebergement a marseille */
+}
+@media (min-width: 600px) and (max-width: 2813px) {
+    .search-button{
+        display: none;
+    }
+
+}
+
+@media (max-width:600px){
+    .act ,.heb{
+        width: 50%;
+    } 
+    .menu-ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .signin{
+        position: absolute;
+        top: 40px;
+        padding: 0;
+        right: 10px;
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .img-card-activity{
+        height:200px;
+        width: 320px;
+        margin-bottom: 30px;
+        
+    }
+    .activite-bg img{
+        height: 150px;
+        width: 100%;
+       
+    }
+    .img-card-activity2{
+        height:200px;
+        width: 320px;
+        margin-bottom: 50px;
+    }
+    .img-card-activity3{
+        height:200px;
+        width: 320px;
+        margin-bottom: 50px;
+    }
+    .elements3{
+        width: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       
+       
+    }
+    .footer{
+        height: 680px;
+    }
+    .search-bar{
+        width: 30px;
+        height: 30px;
+        background-color: rgb(232, 232, 232)  ;
+        border:  rgb(232, 232, 232)solid 1px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    
+    .marseille{
+        font-size: 10px;
+        height: 30px;
+        width: 120px;
+        border: none;
+    }
+    .marseille:focus{
+        outline: none;
+    }
+    .search-button{
+        color: white;
+        font-size: 10px;
+        width: 50px;
+        height: 31px;
+        border: 2px solid blue;
+        background-color:blue;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .search-button-2{
+        display: none;
+    }
+    .heb:hover{
+        border-top: 1PX solid transparent;
+         border-bottom: 1px solid blue;
+    }
+    
+    .act:hover{
+        color: blue;
+        border-top: 1PX solid transparent;
+        border-bottom: 1px solid blue;
+    }
+    .signin:hover{
+        border-top: 1px solid transparent;
+
+    }
+    .header{
+        width: 100%;
+        margin: 0;
+    }
+
+    
+    
+
+}
