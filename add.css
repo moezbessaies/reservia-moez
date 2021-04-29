@@ -121,12 +121,12 @@ flex-wrap: wrap;
         display: flex;
         justify-content: space-between;
         width: 100%;
-        border: 1px solid red;
+      
     }
 
     .signin{
         position: absolute;
-        top: 40px;
+        top: 20px;
         padding: 0;
         right: 10px;
     }
@@ -219,8 +219,41 @@ flex-wrap: wrap;
         width: 100%;
         margin: 0;
     }
-
     
-    
+}
+@media (min-width: 673px) and (max-width: 786px) {
 
+    .img-card-activity{
+       
+        height: 460px;
+    }
+    .img-card-activity img{
+        width: 100%;
+        height: 350px;
+    }
+    .img-card-activity2{
+       
+        height: 460px;
+    }
+    .img-card-activity2 img{
+        width: 100%;
+        height: 350px;
+    }
+    .img-card-activity3{
+       
+        height: 460px;
+    }
+    .img-card-activity3 img{
+        width: 100%;
+        height: 350px;
+}
+    .elements3{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        height: 500px;
+    }
 }
