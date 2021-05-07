@@ -104,7 +104,7 @@ flex-wrap: wrap;
     
    
 
-    /* Todo mettre en harmonie les heigths des cards activites comme sur les cards d'hebergement a marseille */
+  
 }
 @media (min-width: 600px) and (max-width: 2813px) {
     .search-button{
@@ -224,7 +224,7 @@ flex-wrap: wrap;
 @media (min-width: 673px) and (max-width: 786px) {
 
     .img-card-activity{
-       
+       w
         height: 460px;
     }
     .img-card-activity img{

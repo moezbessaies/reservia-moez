@@ -96,7 +96,7 @@ body{
     border-bottom-right-radius: 10px;
 }
 
-}
+
 .filter{
     display: flex;
     padding-top: 30px;
@@ -299,7 +299,7 @@ a  {
     
 }
 
-}
+
 #bloc-tri{
     max-width: 100%;
     /*border: solid 2px red;*/
